@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js" integrity="sha512-HzAEuXwhLxwm/Jj+5ecdjzrRVrjuh2ZeIxyT1Ln37TO5pWNMnKBuU7cfd1wvRQ/k86w1oC174Yk1T7aRlBpIcA==" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.ico"> 
+    <title>MFuentes</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h4>MANUEL FUENTES</h4>
+        </div>
+        <ul class="nav-links">
+            <img src="images/Asset 1@2x.png" class="pencil" alt="pencil">
+            <li>
+                <a href="#about-me">ABOUT</a>
+            </li>
+            <li>
+                <a href="#projects">PROJECTS</a>
+            </li>
+            <li>
+                <a href="#contact">CONTACT</a>
+            </li>
+        </ul>
+        <div class="burger">
+            <div class="line-1"></div>
+            <div class="line-2"></div>
+            <div class="line-3"></div>
+        </div>
+    </nav>
+    <div class="portfolio-1">
+        <div>
+            <img src="images/world@2x.png" alt="world">
+        </div>
+        <div class="speech-wrapper">
+            <div class="speech bubble">
+                <p>Hello</p>
+            </div>
+        </div>
+    </div>
+    <section class="img-section">
+        <div class="img-title">
+            <img src="images/portraitg2-01.png" alt="manuel fuentes">
+        </div>
+        <div class="page-detail">
+            <div id="about-me">
+                <h2>ABOUT ME</h2>
+                <p>My name is Manuel Fuentes and I am a multidisciplinary designer. I do illustration, graphic design and programming. I enjoy all aspects of programming, it is one of the industries where I can merge all my talents into one. My current goal is to learn how to animate and make websites more interactive.</p>
+            </div>
+        </div>
+    </section>
+    <section class="img-section-2">
+        <div class="portfolio-2" id="projects">
+            <h2>PROJECTS</h2>
+        </div>
+        <div class="page-detail-2">
+            <div>
+                <h1>PYCASSO</h1>
+            </div>
+            <div>
+                <img src="images/pycasso_formatted.jpg">
+            </div>
+                <div id="pycasso-links">
+                <a href="https://github.com/KoalaCodes/pycasso" class="github-button" target="_"><img src="images/GitHub-Mark-120px-plus.png" id="github"></a>
+                <a href="https://pycasso-629.herokuapp.com/" class="pycasso-button" target="_">LAUNCH</a>
+                </div>
+            <div>
+                <h1>TinDog</h1>
+            </div>
+            <div>
+                <img class="tin-dog" src="images\tin-dog.JPG">
+            </div>
+            <div id="pycasso-links">
+                <a href="https://github.com/KoalaCodes/pycasso" class="github-button" target="_"><img src="images/GitHub-Mark-120px-plus.png" id="github"></a>
+                <a href="https://koalacodes.github.io/tindog/" class="pycasso-button" target="_">LAUNCH</a>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <form id ="contact-form" method="post" action="">
+            <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+            <input name="email" type="text" class="form-control" placeholder="Your Email" required><br>
+            <textarea name="message" class="form-control" placeholder="MESSAGE" rows="4" required></textarea><br>
+            <input type="submit" class="form-control submit" value="SEND MESSAGE">
+        </form>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
+
